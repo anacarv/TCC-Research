@@ -9,14 +9,14 @@ O artigo investiga como refatorações que visam melhorar a qualidade do código
 
 ## 2. Fichamento Bibliográfico
 
-* _Refatoração e Segurança_: Refatorações podem melhorar modularidade e reutilização, mas também expor código sensível a ataques (p. 2).
-* _QMOOD Quality Model_: Modelo utilizado para medir atributos de qualidade como reutilização, flexibilidade e extensibilidade (p. 4).
-* _Métricas de Segurança_: Incluem acessibilidade de atributos sensíveis (CIDA, CCDA), interação entre métodos críticos (CMAI, CAAI) e peso de métodos classificados (CMW) (p. 6).
-* _Algoritmo NSGA-II_: Utilizado para encontrar soluções de refatoração que maximizam qualidade e segurança de forma equilibrada (p. 9).
+* _Refatoração e Segurança_: Refatorações podem melhorar modularidade e reutilização, mas também expor código sensível a ataques (página 2).
+* _QMOOD Quality Model_: Modelo utilizado para medir atributos de qualidade como reutilização, flexibilidade e extensibilidade (página 4).
+* _Métricas de Segurança_: Incluem acessibilidade de atributos sensíveis (CIDA, CCDA), interação entre métodos críticos (CMAI, CAAI) e peso de métodos classificados (CMW) (página 6).
+* _Algoritmo NSGA-II_: Utilizado para encontrar soluções de refatoração que maximizam qualidade e segurança de forma equilibrada (página 9).
 * _Impacto das Refatorações_:
   * _Positivo na segurança_: Encapsular campos, aumentar segurança de atributos/métodos, empurrar métodos/campos para subclasses.
-  * _Negativo na segurança_: Criar superclasses, mover métodos, extrair classes, diminuir segurança de atributos/métodos (p. 12).
-* _Estudo Empírico_: Avaliação em 30 projetos de código aberto mostrou correlações negativas entre segurança e qualidade, reforçando a necessidade de um equilíbrio no design (p. 14).
+  * _Negativo na segurança_: Criar superclasses, mover métodos, extrair classes, diminuir segurança de atributos/métodos (página 12).
+* _Estudo Empírico_: Avaliação em 30 projetos de código aberto mostrou correlações negativas entre segurança e qualidade, reforçando a necessidade de um equilíbrio no design (página 14).
 
 ## 3. Fichamento de Citações
 

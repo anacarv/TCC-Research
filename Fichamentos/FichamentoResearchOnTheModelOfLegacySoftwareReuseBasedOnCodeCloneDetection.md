@@ -5,16 +5,16 @@ M. Fanqi and K. Yunqi, "Research on the Model of Legacy Software Reuse Based on 
 
 ## 1. Fichamento de Conteúdo
 
-O artigo apresenta um modelo para reutilização de software legado baseado na detecção de clones de código. A reutilização de código legado pode reduzir custos e tempo no desenvolvimento de novos sistemas. O modelo proposto segue duas etapas principais: _engenharia reversa_, para analisar e extrair componentes reutilizáveis, e _engenharia direta_, para integrar esses componentes em novos sistemas. A técnica de detecção de clones de código é usada para identificar funções similares em softwares antigos, permitindo refatoração e encapsulamento em novos componentes reutilizáveis. Ferramentas como *CCFinder* são utilizadas para identificar padrões de código duplicado e avaliar sua adequação para reuso. O estudo apresenta experimentos com softwares reais (*MySQL* e *PostgreSQL*), demonstrando que a detecção de clones pode ser útil para localizar código estável e confiável para reaproveitamento.
+O artigo apresenta um modelo para reutilização de software legado baseado na detecção de clones de código. A reutilização de código legado pode reduzir custos e tempo no desenvolvimento de novos sistemas. O modelo proposto segue duas etapas principais: engenharia reversa, para analisar e extrair componentes reutilizáveis, e engenharia direta, para integrar esses componentes em novos sistemas. A técnica de detecção de clones de código é usada para identificar funções similares em softwares antigos, permitindo refatoração e encapsulamento em novos componentes reutilizáveis. Ferramentas como _CCFinder_ são utilizadas para identificar padrões de código duplicado e avaliar sua adequação para reuso. O estudo apresenta experimentos com softwares reais (_MySQL_ e _PostgreSQL_), demonstrando que a detecção de clones pode ser útil para localizar código estável e confiável para reaproveitamento.
 
 ## 2. Fichamento Bibliográfico
 
-* _Reutilização de software legado_: Processo de reaproveitamento de código de sistemas antigos para reduzir custos e tempo no desenvolvimento de novos sistemas (p. 1).
-* _Detecção de clones de código_: Método para encontrar trechos de código duplicados, que podem indicar componentes reutilizáveis e simplificar refatoração (p. 3).
-* _Engenharia reversa e direta_: Abordagem que envolve primeiro analisar e extrair componentes de sistemas legados (engenharia reversa) e depois integrá-los em novos sistemas (engenharia direta) (p. 4).
-* _CCFinder_: Ferramenta baseada em tokens para detecção de clones de código, ajudando na identificação de padrões reutilizáveis em grandes bases de código (p. 5).
-* _Refatoração baseada em clones_: Estratégia que consiste em consolidar trechos de código duplicados em funções reutilizáveis, melhorando a manutenção e reuso (p. 7).
-* _Experimentos com MySQL e PostgreSQL_: Aplicação do modelo em bases de código reais, demonstrando que a detecção de clones pode reduzir a complexidade do código e facilitar a extração de componentes (p. 9).
+* _Reutilização de software legado_: Processo de reaproveitamento de código de sistemas antigos para reduzir custos e tempo no desenvolvimento de novos sistemas (página 1).
+* _Detecção de clones de código_: Método para encontrar trechos de código duplicados, que podem indicar componentes reutilizáveis e simplificar refatoração (página 3).
+* _Engenharia reversa e direta_: Abordagem que envolve primeiro analisar e extrair componentes de sistemas legados (engenharia reversa) e depois integrá-los em novos sistemas (engenharia direta) (página 4).
+* _CCFinder_: Ferramenta baseada em tokens para detecção de clones de código, ajudando na identificação de padrões reutilizáveis em grandes bases de código (página 5).
+* _Refatoração baseada em clones_: Estratégia que consiste em consolidar trechos de código duplicados em funções reutilizáveis, melhorando a manutenção e reuso (página 7).
+* _Experimentos com MySQL e PostgreSQL_: Aplicação do modelo em bases de código reais, demonstrando que a detecção de clones pode reduzir a complexidade do código e facilitar a extração de componentes (página 9).
 
 ## 3. Fichamento de Citações
 
