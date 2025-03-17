@@ -4,16 +4,16 @@ V. Nitin, "Using AI to Automate the Modernization of Legacy Software Application
 
 ## 1. Fichamento de Conteúdo
 
-O artigo aborda o desafio da modernização de softwares legados, destacando as dificuldades na manutenção e segurança desses sistemas. O autor propõe o uso de inteligência artificial para automatizar três aspectos da modernização: (1) a migração de arquiteturas monolíticas para microserviços, (2) a tradução de códigos escritos em linguagens antigas, como C, para linguagens modernas, como Rust, e (3) a detecção de bugs introduzidos durante esse processo. Para cada um desses aspectos, o artigo apresenta soluções baseadas em pesquisas anteriores do autor. As abordagens incluem o uso de análise gráfica para decomposição de sistemas monolíticos, aprendizado de máquina para tradução de código e ferramentas estáticas para verificação de segurança em Rust. Os resultados indicam melhorias significativas na eficácia da modernização quando essas ferramentas são empregadas, reduzindo erros e aumentando a eficiência do processo.
+O artigo aborda o desafio da modernização de *softwares* legados, destacando as dificuldades na manutenção e segurança desses sistemas. O autor propõe o uso de inteligência artificial para automatizar três aspectos da modernização: (1) a migração de arquiteturas monolíticas para microserviços, (2) a tradução de códigos escritos em linguagens antigas, como *C*, para linguagens modernas, como *Rust*, e (3) a detecção de *bugs* introduzidos durante esse processo. Para cada um desses aspectos, o artigo apresenta soluções baseadas em pesquisas anteriores do autor. As abordagens incluem o uso de análise gráfica para decomposição de sistemas monolíticos, aprendizado de máquina para tradução de código e ferramentas estáticas para verificação de segurança em *Rust*. Os resultados indicam melhorias significativas na eficácia da modernização quando essas ferramentas são empregadas, reduzindo erros e aumentando a eficiência do processo.
 
 ## 2. Fichamento Bibliográfico
 
 * _Monolith to Microservice Refactoring_: Processo de dividir aplicações monolíticas em microsserviços, melhorando escalabilidade e manutenção (página 2).
 * _Code Translation_: Conversão de código de linguagens antigas para modernas usando IA, garantindo melhor segurança e legibilidade (página 3).
-* _Detecting Bugs in Modernized Code_: Identificação de erros decorrentes da modernização, especialmente em Rust, onde a conversão de código pode introduzir vulnerabilidades (página 4).
+* _Detecting Bugs in Modernized Code_: Identificação de erros decorrentes da modernização, especialmente em *Rust*, onde a conversão de código pode introduzir vulnerabilidades (página 4).
 * _CARGO_: Ferramenta que usa análise estática para criar um grafo de dependências e sugerir particionamento eficiente em microsserviços (página 5).
-* _SpecTra_: Sistema que melhora a tradução de código por IA, combinando técnicas de transpilers e LLMs para garantir código mais correto e idiomático (página 6).
-* _Yuga_: Ferramenta de análise estática para detectar bugs relacionados a anotações de tempo de vida em Rust, um problema crítico na conversão de C para Rust (página 7).
+* _SpecTra_: Sistema que melhora a tradução de código por IA, combinando técnicas de *transpilers* e *LLMs* para garantir código mais correto e idiomático (página 6).
+* _Yuga_: Ferramenta de análise estática para detectar bugs relacionados a anotações de tempo de vida em *Rust*, um problema crítico na conversão de *C* para *Rust* (página 7).
 
 ## 3. Fichamento de Citações
 
