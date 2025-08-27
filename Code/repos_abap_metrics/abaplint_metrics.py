@@ -2,7 +2,7 @@ import csv
 import os
 import subprocess
 
-CSV_REPOS = os.path.join(os.path.dirname(__file__), "./Code/repos_abap_fetch/repos_abap_filtered.py")
+CSV_REPOS = "./Code/repos_abap_fetch/repos_abap_enriched.csv"
 PASTA_REPOS = "./Code/repos_abap_metrics/repositorios"
 PASTA_RESULTADOS = "./Code/repos_abap_metrics/resultados"
 
@@ -52,7 +52,7 @@ def clonar_repositorio(nome, url):
     if not os.path.exists(destino):
         print(f"Clonando {nome}...")
         try:
-            subprocess.run(["git", "clone", url, destino], check=True)
+            subprocess.run(["git", "clone", "--depth", "1", url, destino], check=True)
         except subprocess.CalledProcessError as e:
             print(f"Erro ao clonar {nome}: {e}")
             return None
@@ -88,10 +88,13 @@ def rodar_abaplint(nome, pasta_repo, abap_files):
     print(f"Rodando abaplint em {nome}...")
     saida_json = os.path.join(PASTA_RESULTADOS, f"{nome}.json")
 
+    # transformar caminhos absolutos em relativos
+    rel_abap_files = [os.path.relpath(f, pasta_repo) for f in abap_files]
+
     try:
         with open(saida_json, "w", encoding="utf-8") as f:
             subprocess.run(
-                ["abaplint.cmd", "--format", "json", *abap_files],
+                ["abaplint.cmd", "--format", "json", *rel_abap_files],
                 cwd=pasta_repo,
                 stdout=f,
                 stderr=subprocess.PIPE,
